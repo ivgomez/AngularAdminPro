@@ -1,0 +1,13 @@
+ng g c login --spec=false -is
+ng g c nopagefound --spec=false -is
+ng g c pages/dashboard --spec=false -is
+ng g c pages/progress --spec=false -is
+ng g c pages/graficas1 --spec=false -is
+ng g c shared/header --spec=false -is
+ng g c shared/sidebar --spec=false -is
+ng g c shared/breadcrumbs --spec=false -is
+ng g s services/shared --spec=false 
+ng g s services/sidebar --spec=false
+
+ng g c pages/pages --spec=false -is --flat
+ng g c login/register --spec=false -is --flat
