@@ -11,3 +11,11 @@ ng g s services/sidebar --spec=false
 
 ng g c pages/pages --spec=false -is --flat
 ng g c login/register --spec=false -is --flat
+
+ng g c components/incrementador --spec=false -is
+
+/** GIT TAG FOR RELEASE **/
+git tag -a v1.0.0 -m "versión 1 - Lista para producción" // Create tag
+git tag  // view tags
+git push --tags  // push tag to github
+
