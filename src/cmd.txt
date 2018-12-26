@@ -20,6 +20,16 @@ ng g m services/service --spec=false
 ng g c pages/promesas --spec=false -is
 ng g c pages/rxjs --spec=false -is
 
+ng g s services/usuario/usuario --spec=false
+
+Guards:
+ng g g services/guards/loginGuard --spec=false
+
+Links:[
+    npm install --save sweetalert
+]
+
+
 /** GIT TAG FOR RELEASE **/
 git tag -a v1.0.0 -m "versión 1 - Lista para producción" // Create tag
 git tag  // view tags
@@ -28,3 +38,7 @@ git push --tags  // push tag to github
 git tag -a v1.2.0 -m "end section 7"
 git tag
 git push --tags
+
+
+LNKS:
+https://github.com/t4t5/sweetalert
