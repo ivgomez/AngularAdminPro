@@ -25,10 +25,19 @@ ng g s services/usuario/usuario --spec=false
 Guards:
 ng g g services/guards/loginGuard --spec=false
 
+Pipes:
+ng g m pipes/pipes --spec=false --flat
+ng g p pipes/imagen --spec=false
+
 Links:[
     npm install --save sweetalert
 ]
 
+PerfilPage
+ng g c pages/profile --spec=false -is
+
+services
+ng g s services/subirArchivo --spec=false
 
 /** GIT TAG FOR RELEASE **/
 git tag -a v1.0.0 -m "versión 1 - Lista para producción" // Create tag
