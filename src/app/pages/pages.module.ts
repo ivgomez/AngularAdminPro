@@ -7,6 +7,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { FormsModule } from '@angular/forms'
 import { CommonModule } from '@angular/common';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
 
 // Pipe Module
 import { PipesModule } from '../pipes/pipes.module';
@@ -20,6 +21,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
     declarations: [
@@ -31,7 +33,9 @@ import { ProfileComponent } from './profile/profile.component';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,
