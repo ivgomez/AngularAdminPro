@@ -39,11 +39,21 @@ ng g c pages/profile --spec=false -is
 services
 ng g s services/subirArchivo --spec=false
 ng g s components/modal-upload/modalUpload --spec=false
+ng g s services/hospital/hospital --spec=false
+ng g s services/medico/medico --spec=false
+ng g s services/medico/medico --spec=false
 
 MantenimientoPages: [
     ng g c pages/usuarios --spec=false -is
     ng g c components/modalUpload -m="pages/pages.module.ts" --spec=false -is
 ]
+
+hospitales component
+ng g c pages/hospitales --spec=false -is
+
+medicos component
+ng g c pages/medicos --spec=false -is
+ng g c pages/medicos/medico --spec=false -is --flat
 
 /** GIT TAG FOR RELEASE **/
 git tag -a v1.0.0 -m "versión 1 - Lista para producción" // Create tag
