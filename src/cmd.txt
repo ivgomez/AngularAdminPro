@@ -61,6 +61,13 @@ ng g c pages/busqueda --spec=false -is
 guards para menu
 ng g g services/guards/admin --spec=false
 
+guards verifica token
+ng g g services/guards/verificaToken --spec=false
+
+Build Production RELEASE
+/* ng build --prod -aot false */
+ng build --prod
+
 /** GIT TAG FOR RELEASE **/
 git tag -a v1.0.0 -m "versión 1 - Lista para producción" // Create tag
 git tag  // view tags
@@ -74,4 +81,6 @@ git push --tags
 LNKS:
 https://github.com/t4t5/sweetalert
 https://semver.org
+https://www.npmjs.com/package/http-server
+
 
